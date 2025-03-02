@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+body {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.background {
+    height: 500vh;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.marcadagua {
+    height: 40vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 3vw;
+    background-color: transparent;
+    position: absolute;
+    z-index: 900;
+
+}
+
+.logo {
+    margin-right: 7vw;
+}
+
+.container {
+    display: flex;
+    margin-left: 5vw;
+}
+
+.container img {
+    width: 2vw;
+}
+
+nav {
+    margin-top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 2vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8vw;
+    font-weight: 200;
+}
+
+.separator {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper {
+    margin-left: 28vw;
+    margin-top: 87vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.wrapper h2 {
+    font-size: 5vh;
+    font-weight: 5;
+    padding: 0 1vw 0 1vw;
+}
+
+.wrapper hr {
+    color: black;
+    width: 10vw;
+    height: 0.3vh;
+    background-color: black;
+    border: none;
+   
+}
+
+.containerSeparator {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    margin-left: 15.5vw;
+    margin-top: 5vh;
+}
+
+.containerSeparator h1 {
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.hidratante {
+    color: #403f3f;
+}
+
+.forMen1 {
+    color: #1c2c4d;
+}
+
+.nutriamino1 {
+    color: #cd5cae;
+}
+
+.hidratacao1 {
+    color: #a20e0e;
+}
+
+.hidratanteSec {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    margin-top: 115vh;
+    margin-left: 15vw;
+}
+
+.hidratanteSec h1 {
+    font-size: 4.5vw;
+    font-weight: bolder;
+    color: #0d1216;
+}
+
+.hidratanteSec p {
+    margin-top: 2vh;
+    margin-right: 45vw;
+    font-size: 1.3vw;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.hidratanteContainer {
+    display: flex;
+    margin-top: 7vh;
+}
+
+.hidratanteContainer h1 {
+    font-size: 1.2vw;
+    padding-right: 11vw;
+    padding-bottom: 7vh;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.forMen {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180vh;
+    margin-left: 56vw;
+
+}
+
+.forMen h1 {
+    font-size: 5.5vw;
+    color: #acafb4;
+}
+
+.forMen p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-right: 10vw;
+    margin-top: 1.3vh;
+    color: #ffffff;
+}
+
+.forMenContainer {
+    margin-top: 3vh;
+}
+
+.forMenContainer h1 {
+    font-size: 1vw;
+    color: #ffffff;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    margin-right: 15vw;
+}
+
+.nutriamino {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    margin-top: 252vh;
+    margin-left: 8vw;
+    color: rgb(0, 0, 0);
+}
+
+.nutriamino h1{
+    color: #3d1829;
+    font-weight: bolder;
+    font-size: 5vw;
+    opacity: 0.7;
+}
+
+.nutriamino p{
+    color: #ffffff;
+    text-align: justify;
+    margin-right: 60vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.nutriaContainer{
+    font-weight: bolder;
+    display: flex;
+    gap: 11.4vw;
+    margin-top: 9vh;
+    margin-left: 6vw;
+    color: #ffffff;
+}
+
+
+.mascara {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    margin-top: 320vh;
+    margin-left: 49vw;
+    color: white;
+
+}
+
+.mascara h1{
+    color: #e69b3b;
+    font-size: 4.5vw;
+}
+
+.mascara p{
+    text-align: justify;
+    margin-right: 16vw;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+.descMascara{
+    margin-top: 4vh;
+    margin-left: 4.5vw;
+    gap: 4vh;
+}
+
+.descMascara h1{
+    font-size: 1.1vw;
+    color: #ffffff;
+    padding-bottom: 4.9vh;
+}
+
+.conhecer {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    margin-top: 390vh;
+    margin-left: 45vw;
+    color: rgb(0, 0, 0);
+}
+
+.conhecer h1{
+font-size: 3.2vw;
+font-weight: bolder;
+text-align: center;
+margin-right: 13vw;
+margin-top: 5vh;
+}
+
+.aboutUsContainer {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.aboutUsContainer input {
+    width: 39vw;
+    height: 6.5vh;
+    background-color: transparent;
+    border-style: none;
+    border: solid 2px #000000;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+    margin-left: 2vw;
+    color: #000000;
+    padding-left: 1vw;
+    font-size: medium;
+}
+
+.aboutUsContainer input:focus {
+    outline: none;
+}
+
+.aboutUsContainer input::placeholder {
+    color: #000000;
+    /* Define a cor desejada */
+}
+
+
+.aboutUsContainer button {
+    height: 6.8vh;
+    width: 10vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(282deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 72%);
+    border-style: none;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 900;
+    margin-left: 32.11vw;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.aboutUsContainer button:hover {
+    cursor: pointer;
+}
+
+
+footer {
+    position: absolute;
+    z-index: 15;
+    display: flex;
+    margin-top: 460vh;
+    flex-direction: column;
+}
+
+footer h1{
+    font-weight: bolder;
+    font-size: 4.5vw;
+    color: #ffffff;
+    margin-left: 0;
+    margin-bottom: 10vh;
+}
+footer h3{
+    color: #ffffff;
+    font-size: 4vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 43vw;
+}
+
+footer hr{
+    width: 100vw;
+}
+
+
+
+.footerWrapper a{
+text-decoration: none;
+color: #ffffff;
+}
+
+.footerWrapper{
+    display: flex;
+    margin-left: 15vw;
+    margin-bottom: 15vh;
+}
+
+.footerWrapper img{
+    width: 20vw;
+}
+
+.distribuidores{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.contacts{
+    font-size: 1.5vw;
+}
+
+.centerImg{
+    padding-top: 5vh;
+}
+
+.bottonImg{
+    padding-top: 5vh;
+}

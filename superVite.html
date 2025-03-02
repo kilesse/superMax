@@ -26,48 +26,54 @@
           <li><a href="#">KITS</a></li>
           <li><a href="#">DISTRIBUIDORES</a></li>
           <li><a href="#">CONTATO</a></li>
-          <li><a href="#"><img src="" alt="sellfoneIcon" /></a></li>
-          <li><a href="#"><img src="" alt="instagramIcon" /></a></li>
-          <li><a href="#"><img src="" alt="emailIcon" /></a></li>
+          <li><a href="#"><img src="assets/ligar.png" alt="sellfoneIcon" /></a></li>
+          <li><a href="#"><img src="assets/instagram.png" alt="instagramIcon" /></a></li>
+          <li><a href="#"><img src="assets/correspondencia.png" alt="emailIcon" /></a></li>
         </div>
       </ul>
     </nav>
   </header>
 
   <section class="banner">
-    <div class="wrapper">
-      <div class="topImage">
-        <h1>SUPER <br> VIT</h1>
+    <div class="containerOverflow">
+      <div class="wrapper">
+        <div class="topImage">
+          <h1>SUPER <br> VIT</h1>
+        </div>
+        <img class="womanTop" src="assets/woman.png" alt="woman" />
       </div>
-      <img class="womanTop" src="assets/woman.png" alt="woman" />
+     
+      <div class="carousel">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+  
+        <div class="galleryWrapper">
+  
+          <div class="gallery">
+            <img src="assets/supervitWoman.jpeg" alt="WomanSuperVit" class="item">
+  
+            <img src="assets/fortalecimento.jpeg" alt="fortalecimento" class="item current-item">
+  
+            <img src="assets/revitalização.jpeg" alt="revitalização" class="item">
+            
+          </div>
+  
+        </div>
+        
+      </div>  
+      <div class="kitText">
+        <img src="assets/videoFormat.jpg" alt="video" />
+        <div class="text">
+          <h1>TUDO O QUE SEU CABELO PRECISA EM UM SÓ KIT</h1>
+          <h3>
+            A linha SUPERVIT foi desenvolvida com foco no fortalecimento da fibra capilar, na aceleração do crescimento dos fios de forma saudável e no tratamento de quedas excessivas. Além de ser rica em D-Pantenol, a linha SUPERVIT possui um diferencial em relação a outras linhas do segmento.
+          </h3>
+        </div>
+      </div>
     </div>
     
-    <!-- Carrossel com Slick -->
-    <div id="myCarousel" class="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          <img src="assets/supervitWoman.jpeg" alt="Imagem 1">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/fortalecimento.jpeg" alt="Imagem 2">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/revitalização.jpeg" alt="Imagem 3">
-        </div>
-        <a class="carousel-control left" href="#" data-slide="prev"></a>
-        <a class="carousel-control right" href="#" data-slide="next"></a>
-      </div>
-    </div>
-    
-    <div class="kitText">
-      <img src="assets/videoFormat.jpg" alt="video" />
-      <div class="text">
-        <h1>TUDO O QUE SEU CABELO PRECISA EM UM SÓ KIT</h1>
-        <h3>
-          A linha SUPERVIT foi desenvolvida com foco no fortalecimento da fibra capilar, na aceleração do crescimento dos fios de forma saudável e no tratamento de quedas excessivas. Além de ser rica em D-Pantenol, a linha SUPERVIT possui um diferencial em relação a outras linhas do segmento.
-        </h3>
-      </div>
-    </div>
+
+   
   </section>
 
   <div class="divisor">
@@ -167,39 +173,32 @@
     <h3>2023 © Supermaxi</h3>
   </footer>
 
-  <div class="footer"></div>
   
   <!-- Inicialização do Slick Carousel -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const carouselInner = document.querySelector('.carousel-inner');
-      const slideWidth = carouselInner.offsetWidth / 3; // cada item ocupa 1/3 da largura
-      // Configura a largura total para o container interno (necessário para o efeito flex)
-      carouselInner.style.width = (slideWidth * carouselInner.children.length) + 'px';
 
-      // Função para fazer o slide
-      function slideCarousel() {
-        // Aplica a transição para mover para a esquerda em 33.33%
-        carouselInner.style.transition = 'transform 0.2s ease';
-        carouselInner.style.transform = 'translateX(-' + slideWidth + 'px)';
-      }
+const controls = document.querySelectorAll('.control');
+const gallery = document.querySelector('.gallery');
+
+controls.forEach(control => {
+  control.addEventListener('click', () => {
+    const isLeft = control.classList.contains('arrow-left');
+
+    if (isLeft) {
+      const firstItem = gallery.firstElementChild;
+      gallery.appendChild(firstItem);
+      // Remove o último e coloca no início
       
-      // Após a transição, move o primeiro item para o final e reinicia o transform
-      carouselInner.addEventListener('transitionend', function() {
-        // Move o primeiro slide para o final
-        carouselInner.appendChild(carouselInner.firstElementChild);
-        // Remove a transição para resetar o transform
-        carouselInner.style.transition = 'none';
-        carouselInner.style.transform = 'translateX(0)';
-        // Força reflow para que a remoção da transição seja aplicada
-        void carouselInner.offsetWidth;
-        // Restaura a transição para a próxima iteração
-        carouselInner.style.transition = 'transform 0.5s ease';
-      });
+      
+    } else {
+      // Remove o primeiro e coloca no final
+      const lastItem = gallery.lastElementChild;
+      gallery.prepend(lastItem);
+    }
+  });
+});
 
-      // Intervalo para o slide automático a cada 3 segundos
-      setInterval(slideCarousel, 3000);
-    });
+
   </script>
 </body>
 </html>
