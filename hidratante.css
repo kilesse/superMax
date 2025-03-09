@@ -351,13 +351,12 @@ footer h1{
     font-size: 4.5vw;
     color: #ffffff;
     margin-left: 0;
-    margin-bottom: 10vh;
 }
 footer h3{
     color: #ffffff;
-    font-size: 4vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
     margin-left: 43vw;
 }
 

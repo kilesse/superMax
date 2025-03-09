@@ -1,0 +1,370 @@
+/* ------------------- // ESTILOS GERAIS //------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------- // CABEÇALHO //------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url("assets/atualizada.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 9vh;
+
+    
+}
+
+
+/* NAVBAR */
+nav {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vh auto;
+}
+
+.logo {
+    width: 26vw;
+    margin-right: 5vw;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.social-icons img {
+    width: 2vw;
+    margin-left: 0vw;
+    margin-right: 2.2vw;
+
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    flex: 1;
+}
+
+/* TEXTO */
+.text h1 {
+    font-size: 4.5vw;
+    color: #511c35;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-left: 2.3vw;
+}
+/* ------------------- // PRODUTOS //------------------- */
+.grid-produtos {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+    justify-content: center;
+    max-width: 60vw;
+    margin: auto;
+    margin-bottom: 1vh;
+    margin-top: 11vh;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #511c35;
+    text-transform: uppercase;
+    margin-top: 14vh;
+    letter-spacing: 1px;
+}
+
+
+.produtos {
+    position: relative;
+    text-align: center;
+}
+
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 2vh;
+    transition: transform 0.3s;
+}
+
+.produto:hover img {
+    transform: scale(1.05);
+}
+
+.linha-galao {
+    grid-column: span 2;
+}
+
+/* ------------------- // SOBRE A EMPRESA //------------------- */
+.sobre {
+    margin-top: 5vh;
+    background: linear-gradient(to right, #d76a9e, #5f6cc3);
+    padding: 6vh;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    width: 100%;
+}
+
+.sobre-img {
+    max-width: 50vw;
+    height: auto;
+    margin-left: 5vw;
+}
+
+.sobre-text {
+    font-family: Arial, sans-serif;
+    font-size: 2.5vh;
+    font-weight: 450;
+    color: #ffffff;
+    text-align: right;
+    max-width: 60vw;
+    margin-right: 16vh;
+    margin-left: 7vw;
+    line-height: 1.5;
+}
+
+/* ------------------- // DISTRIBUIDORES //------------------- */
+.distribuidor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding: 5vh 5vw;
+}
+
+.distribuidor-img {
+    max-width: 35vw;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.distribuidor-img img {
+    width: 70%;
+    height: auto;
+    vertical-align: top;
+    margin-left: 19vw;
+    margin-right: 4vw;
+}
+
+.distribuidor-text {
+    max-width: 50vw;
+    text-align: left;
+}
+
+.distribuidor-text h2 {
+    font-size: 5vh;
+    margin-bottom: 3vh;
+    margin-right: 17.3vw;
+    text-align: right;
+    color: #423977;
+}
+
+.distribuidor-text p {
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+    margin-left: 12vw;
+    margin-right: 37vh;
+    text-align: right;
+    
+}
+
+.botao-contato {
+    display: inline-block;
+    background-color: #AD7FCB;
+    color: white;
+    padding: 2vh 4vw;
+    font-size: 2vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    margin-left: 14.8vw;
+    margin-right: 5vh;
+}
+
+.botao-contato:hover {
+    background-color: #8B5FBF;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .distribuidor-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .distribuidor-img, .distribuidor-text {
+        max-width: 80vw;
+    }
+
+    .botao-contato {
+        width: 60vw;
+    }
+}
+
+
+/* ------------------- // REDES SOCIAIS //------------------- */
+.redes-sociais {
+    text-align: center;
+    color: #423977;
+    font-size: 2.5vh;
+}
+
+.redes-sociais h4 {
+    color: #000;
+}
+
+.redes-sociais img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* ------------------- // RODAPÉ //------------------- */
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.footer {
+    margin-top: 13vh;
+    background: linear-gradient(to right, #e76b8d, #6b69d6);
+    color: white;
+    padding: 5vh 0;
+    text-align: center;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85vw;
+    margin-right: 11vw;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 24vw; 
+    height: auto;
+    margin-left: 16vw;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+}
+.contacts {
+    margin-right: 55vw;
+    margin-left: 1vw !important;
+    
+}
+
+.links, .contacts {
+    list-style: none;
+    text-align: left;
+    margin-left: 9vw;
+}
+
+.links li, .contacts li {
+    margin: 1.5vh 0;
+    display: flex;
+    align-items: center;    
+    
+}
+
+.contacts img {
+    width: 2vw;
+    height: auto;
+    margin-right: 1vw;
+    margin-left: 2vw;
+}
+
+.links a, .contacts a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vh;   
+    margin-right: 8vh;
+    
+}
+
+.divider {
+    width: 70vw;
+    height: 0.3vh;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 3vh auto;
+}
+
+.copyright {
+    font-size: 1.5vh;
+}

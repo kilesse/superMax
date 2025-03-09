@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 900;
+}
+
+.logo {
+    margin-right: 7vw;
+}
+
+.container {
+    display: flex;
+    margin-left: 5vw;
+}
+
+.container img {
+    width: 2vw;
+}
+
+nav {
+    margin-top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 2vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 3.5vh;
+    font-weight: 200;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 150vh;
+}
+
+.topWoman {
+    margin-top: 10vh;
+    position: absolute;
+    z-index: 10;
+    height: 80vh;
+    background-color: transparent;
+    margin-left: 15vw;
+}
+
+.h1Container {
+    position: absolute;
+    z-index: 9;
+    font-size: 6.5vw;
+    margin-left: 38.5vw;
+    text-align: left;
+    margin-top: 22vh;
+    background-color: transparent;
+    color: #55534a;
+}
+
+
+
+.backgroundBanner {
+    width: 100vw;
+    position: absolute;
+    height: 90vh;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.bannerProduct {
+    position: absolute;
+    z-index: 25;
+    width: 21vw;
+    margin-top: 78vh;
+    margin-left: 52vw;
+}
+
+.containerProduct {
+    position: absolute;
+    z-index: 24;
+    margin-top: 102vh;
+}
+
+.containerProduct h1 {
+    text-align: left;
+    margin-right: 50vw;
+    margin-left: 17vw;
+    font-size: 2.3vw;
+    font-weight: bolder;
+}
+
+.containerProduct p {
+    text-align: justify;
+    margin-left: 17vw;
+    margin-right: 50.5vw;
+    margin-top: 3vh;
+    font-size: 1.15vw;
+}
+
+.video {
+    margin-bottom: 15vh;
+    height: 85vh;
+    overflow: hidden;
+    border-radius: 34px;
+    background-color: #ffffff;
+}
+
+.dicas {
+    position: absolute;
+    z-index: 25;
+    margin-left: 18vw;
+}
+
+.dicas h1 {
+    font-weight: bolder;
+    font-size: 4vw;
+    margin-right: 10vw;
+}
+
+.dicas h3 {
+    margin-top: 3vh;
+    font-size: 3.5vh;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 8vw;
+    margin-right: 22vw;
+}
+
+
+.dicas img {
+    border-radius: 50%;
+    height: 20vh;
+    width: 10.5vw;
+    margin-top: 8vh;
+
+}
+
+.numberContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 16vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.numberContainer h2 {
+    text-align: left;
+    font-size: 1.7vw;
+    position: absolute;
+    margin-left: 14vw;
+    margin-top: 12.5vh;
+}
+
+.numberWrapper {
+    display: flex;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    font-size: 5vw !important;
+    font-weight: lighter !important;
+    margin-top: 12vh;
+    margin-left: 3.8vw;
+}
+
+.cachos {
+    margin-top: 190vh;
+}
+
+.side1,
+.side2 {
+    display: flex;
+    margin-bottom: 15vh;
+}
+
+.side1 {
+    margin-left: 10vw;
+}
+
+
+.side1 h1 {
+    margin-top: 11vh;
+    margin-right: 45vw;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 8.5vh;
+}
+
+.side1 p {
+    text-align: left;
+    font-size: 3.7vh;
+    font-weight: lighter;
+    margin-right: 55vw;
+    margin-top: 5vh;
+}
+
+.side1 img {
+    height: 75vh;
+    width: 55vw;
+    position: absolute;
+    margin-left: 45vw;
+}
+
+.side2 {
+    margin-right: 8vw;
+}
+
+.side2 img {
+    height: 72vh;
+    width: 55vw;
+    position: absolute;
+    margin-right: 35vw;
+    margin-top: 10vh;
+}
+
+.side2Container{
+    margin-top: 15vh;
+}
+
+.side2 h1 {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 8vh;
+    margin-left: 55vw;
+    
+}
+
+.side2 p{
+    text-align: right;
+    font-size: 3.7vh;
+    font-weight: lighter;
+    margin-left: 57vw;
+    margin-top: 5vh;
+}
+
+
+.aboutUs{
+    margin-top: 15vh;
+}
+
+.aboutUs img{
+    height: 72vh;
+    width: 50vw;
+    position: absolute;
+}
+
+.aboutUsWrapper{
+    margin-right: 50vw;
+    margin-left: 10vw;
+    text-align: left;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 7vh;
+}
+
+.aboutUsWrapper h1{
+ font-size: 3vw;
+
+}
+
+.aboutUsContainer {
+    margin-top: 20vh;
+    display: flex;
+}
+
+.aboutUsContainer input {
+    width: 30vw;
+    height: 7vh;
+    background-color: transparent;
+    border-style: none;
+    border: solid 2px #000000;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+    color: #000000;
+    padding-left: 1vw;
+    font-size: medium;
+}
+
+.aboutUsContainer input:focus {
+    outline: none;
+}
+
+.aboutUsContainer input::placeholder {
+    color: #000000;
+    /* Define a cor desejada */
+}
+
+
+.aboutUsContainer button {
+    height: 7vh;
+    width: 10vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(282deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 72%);
+    border-style: none;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 900;
+    margin-left: 25vw;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.aboutUsContainer button:hover {
+    cursor: pointer;
+}
+
+
+
+footer {
+    margin-top: 100vh;
+   background-image: url("assets/backgroundFooter.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding-top: 5vh;
+   
+}
+
+footer h1{
+    font-weight: bolder;
+    font-size: 4.5vw;
+    color: #000000;
+    margin-left: 0;
+    margin-bottom: 10vh;
+    
+}
+footer h3{
+    color: #000000;
+    font-size: 4vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+
+
+.footerWrapper a{
+text-decoration: none;
+color: #000000;
+}
+
+.footerWrapper{
+    display: flex;
+    margin-left: 15vw;
+    margin-bottom: 15vh;
+}
+
+.footerWrapper img{
+    width: 20vw;
+}
+
+.distribuidores{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.contacts{
+    font-size: 1.5vw;
+}
+
+.centerImg{
+    padding-top: 5vh;
+}
+
+.bottonImg{
+    padding-top: 5vh;
+}
+
+footer hr{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-color: #000000;
+}
