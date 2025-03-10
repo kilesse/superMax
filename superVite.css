@@ -153,13 +153,15 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     margin-top: 55vh;
+    margin-right: 3vw;
     
   }
 
   .kitText img{
-    width: 37vw;
+    width: 23vw;
     height: 65vh;
     margin-left: 15vw;
+    left: 6vw;
     position: absolute;
   }
 
@@ -392,7 +394,7 @@ font-size: medium;
 .insta img{
     width: 67vw;
     margin-left: 17vw;
-    margin-top: 4vh;
+    margin-top: 7vh;
     margin-bottom: 20vh;
 }
 
@@ -442,12 +444,43 @@ color: #ffffff;
     justify-content: space-between;
 }
 
-.contacts{
-    font-size: 1.5vw;
+.contacts {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contacts li {
+  display: flex;
+  align-items: center;
+}
+
+.contacts a {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espaço entre o ícone e o texto */
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: #ddd; /* Efeito hover */
+}
+
+.contacts i {
+  font-size: 18px; /* Tamanho dos ícones */
+  color: white;
+}
+
+.contacts img {
+  width: 2.5vw;
 }
 
 .centerImg{
-    padding-top: 5vh;
+    padding-top: 3vh;
 }
 
 .bottonImg{
