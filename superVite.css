@@ -213,6 +213,14 @@ nav ul li a {
     margin-left: 15vw;
 }
 
+.kitText video{
+  width: 45vw;
+  height: 70vh;
+  margin: 0;
+  position: absolute;
+  border: none;
+}
+
 .containerGrowth h3{
  text-align: justify;
  font-weight: lighter;
