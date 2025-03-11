@@ -122,12 +122,12 @@ nav ul li a {
     font-size: 1.15vw;
 }
 
-.video {
+video {
     margin-bottom: 15vh;
     height: 85vh;
-    overflow: hidden;
     border-radius: 34px;
     background-color: #ffffff;
+    
 }
 
 .dicas {
