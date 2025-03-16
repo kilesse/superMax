@@ -15,27 +15,25 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
+  <body id="topo">
   <header>
     <nav>
       <ul>
         <div class="logo">
-          <a href="index.html">
+          <a href="/hidratante.html">
           <img src="assets/logopng.webp" alt="LOGO" />
           <a href="index.html"></a>
         </div>
         <div class="container">
           <ul>
               <li>
-                  <a href="/hidratante.html" target="_blank">PRODUTOS</a>
+                  <a href="index.html#produto" target="_blank">PRODUTOS</a>
               </li>
               <li>
-                  <a href="https://www.instagram.com/supermaxi.oficial" target="_blank">KITS</a>
+                  <a href="index.html#distribuidores" target="_blank">DISTRIBUIDORES</a>
               </li>
               <li>
-                  <a href="https://wa.me/5531992149429" target="_blank">DISTRIBUIDORES</a>
-              </li>
-              <li>
-                  <a href="https://wa.me/5531992149429" target="_blank">CONTATO</a>
+                  <a href="/cotato.html" target="_blank">CONTATO</a>
               </li>
               <li>
                   <a href="tel:+5531992149429" target="_blank">
@@ -150,26 +148,38 @@
       </div>
     </div>
   </section>
-
   <section class="aboutUs">
     <div class="imgBackground">
       <img src="assets/redHairWoman.png" alt="woman" />
       <h1>SUPER <br>VIT</h1>
       <div class="aboutUsWrapper">
-        <h2>VOCÊ QUER CONHERCER MAIS SOBRE NOSSOS PRODUTOS?</h2>
-      <div class="aboutUsContainer">
-        <input type="text" id="txtSendMensage" placeholder="Mande uma mensagem" />
-        <button class="submit">ENVIAR</button>
+        <h2>VOCÊ QUER CONHECER MAIS SOBRE NOSSOS PRODUTOS?</h2>
+        <form action="https://formspree.io/f/manenwzk" method="POST" class="aboutUsContainer">
+          <input type="text" id="txtSendMensage" name="message" placeholder="Mande uma mensagem" required />
+          <button type="submit" class="submit">ENVIAR</button>
+        </form>
       </div>
-      </div>
-      
     </div>
+  </section>
+  
 
-    <div class="insta">
-        <h1>SIGA NOSSOS PERFIS</h1>
-        <h3>E FIQUE SEMPRE ATUALIZADO</h3>
-        <img src="assets/instagramFeed.jpeg" alt="instagramFeed" />
+    <section class="redes-sociais">
+      <h2><strong>SIGA NOSSOS PERFIS</strong></h2><br>
+      <h4><p>E FIQUE SEMPRE ATUALIZADO</p></h4><br>
+  
+      <!-- Instagram Feed (Curator.io) -->
+      <div class="instagram-feed" id="curator-feed-default-feed-layout">
+          <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
       </div>
+  
+      <!-- Script do Curator.io -->
+      <script type="text/javascript">
+          (function(){
+              var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+              i.src="https://cdn.curator.io/published/9045974c-8210-44c6-99e2-245265483a35.js";
+              e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+          })();
+      </script>
   </section>
 
   
@@ -190,14 +200,14 @@
       <ul class="contacts">
         <li>
           <img src="/assets/telefone copy.png" alt="">
-            <a href="https://wa.me/5531999999999" target="_blank">
-                <i class="fa fa-whatsapp"></i> (31) 99999-9999
+            <a href="https://wa.me/5531992149429" target="_blank">
+                <i class="fa fa-whatsapp"></i> (31)9 9214-9429
             </a>
         </li>
         <li>
           <img src="/assets/email.png" alt="">
-            <a href="mailto:contato@supermaxi.com.br">
-                <i class="fa fa-envelope"></i> contato@supermaxi.com.br
+            <a href="mailto:comercial@supermaxicosmeticos.com.br">
+                <i class="fa fa-envelope"></i> comercial@supermaxicosmeticos.com.br
             </a>
         </li>
         <li>
