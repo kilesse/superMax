@@ -69,6 +69,10 @@ nav {
     gap: 2vw;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .menu li a {
     text-decoration: none;
     font-size: 1.4vw;
@@ -84,7 +88,6 @@ nav {
 
 }
 
-/* CONTAINER */
 .container {
     display: flex;
     align-items: center;
@@ -224,7 +227,6 @@ h2 {
     margin-left: 12vw;
     margin-right: 37vh;
     text-align: right;
-    
 }
 
 .botao-contato {
@@ -239,7 +241,6 @@ h2 {
     border-radius: 2vh;
     cursor: pointer;
     transition: 0.3s;
-    
     margin-left: 14.8vw;
     margin-right: 5vh;
 }
@@ -248,7 +249,34 @@ h2 {
     background-color: #8B5FBF;
 }
 
-/* Responsividade */
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+    margin-top: 3vh;
+}
+
+.formulario-contato h3 {
+    font-size: 3vh;
+
+    color: #423977;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 80%;
+    padding: 1vh;
+    border: 1px solid #AD7FCB;
+    border-radius: 1vh;
+    font-size: 1.8vh;
+}
+
+.formulario-contato textarea {
+    resize: none;
+    height: 15vh;
+}
+
 @media (max-width: 768px) {
     .distribuidor-container {
         flex-direction: column;
@@ -261,25 +289,41 @@ h2 {
 
     .botao-contato {
         width: 60vw;
+        ;
     }
 }
-
 
 /* ------------------- // REDES SOCIAIS //------------------- */
 .redes-sociais {
     text-align: center;
     color: #423977;
-    font-size: 2.5vh;
+    font-size: 2.5vw;
 }
 
 .redes-sociais h4 {
     color: #000;
 }
 
-.redes-sociais img {
-    display: block;
+.instagram-feed {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.crt-logo {
+    color: transparent;
+}
+
+#curator-feed-default-feed-layout {
+    width: 100%;
+    max-width: 70vw;
+    height: 72vh;
     margin: 0 auto;
 }
+
+
+
+
+
 
 /* ------------------- // RODAPÉ //------------------- */
 * {
@@ -293,6 +337,11 @@ h2 {
 body {
     background-color: #f4f4f4;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 .footer {
     margin-top: 13vh;

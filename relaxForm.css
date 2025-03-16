@@ -91,6 +91,9 @@ nav ul li a {
     overflow: hidden;
 
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .bannerProduct {
     position: absolute;
@@ -221,8 +224,8 @@ video {
 }
 
 .side1 img {
-    height: 75vh;
-    width: 55vw;
+    height: 70vh;
+    width: 50vw;
     position: absolute;
     margin-left: 45vw;
 }
@@ -232,8 +235,8 @@ video {
 }
 
 .side2 img {
-    height: 72vh;
-    width: 55vw;
+    width: 44vw;
+    margin-right: 40vw;
     position: absolute;
     margin-right: 35vw;
     margin-top: 10vh;
@@ -256,86 +259,86 @@ video {
     font-size: 3.7vh;
     font-weight: lighter;
     margin-left: 57vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
 
-.aboutUs{
-    margin-top: 15vh;
-}
+    .aboutUs{
+        margin-top: 12vh;
+    }
 
-.aboutUs img{
-    height: 72vh;
-    width: 50vw;
-    position: absolute;
-}
+    .aboutUs img{
+        height: 64vh;
+        width: 43vw;
+        margin-left: 55vw;
+    }
 
-.aboutUsWrapper{
-    margin-right: 50vw;
-    margin-left: 10vw;
-    text-align: left;
-    position: absolute;
-    overflow: hidden;
-    margin-top: 7vh;
-}
+    .aboutUsWrapper{
+        margin-right: 50vw;
+        margin-left: 10vw;
+        text-align: left;
+        position: absolute;
+        overflow: hidden;
+        margin-top: 7vh;
+    }
 
-.aboutUsWrapper h1{
- font-size: 3vw;
+    .aboutUsWrapper h1{
+    font-size: 3vw;
 
-}
+    }
 
-.aboutUsContainer {
-    margin-top: 20vh;
-    display: flex;
-}
+    .aboutUsContainer {
+        margin-top: 8vh;
+        display: flex;
+    }
 
-.aboutUsContainer input {
-    width: 30vw;
-    height: 7vh;
-    background-color: transparent;
-    border-style: none;
-    border: solid 2px #000000;
-    border-radius: 30px;
-    position: relative;
-    z-index: 100;
-    color: #000000;
-    padding-left: 1vw;
-    font-size: medium;
-}
+    .aboutUsContainer input {
+        width: 30vw;
+        height: 7vh;
+        background-color: transparent;
+        border-style: none;
+        border: solid 2px #000000;
+        border-radius: 30px;
+        position: relative;
+        z-index: 100;
+        color: #000000;
+        padding-left: 1vw;
+        font-size: medium;
+    }
 
-.aboutUsContainer input:focus {
-    outline: none;
-}
+    .aboutUsContainer input:focus {
+        outline: none;
+    }
 
-.aboutUsContainer input::placeholder {
-    color: #000000;
-    /* Define a cor desejada */
-}
+    .aboutUsContainer input::placeholder {
+        color: #000000;
+        /* Define a cor desejada */
+    }
 
 
-.aboutUsContainer button {
-    height: 7vh;
-    width: 10vw;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(282deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 72%);
-    border-style: none;
-    border-radius: 30px;
-    position: absolute;
-    z-index: 900;
-    margin-left: 25vw;
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: medium;
-}
+    .aboutUsContainer button {
+        height: 7vh;
+        width: 10vw;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(282deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 72%);
+        border-style: none;
+        border-radius: 30px;
+        position: absolute;
+        z-index: 900;
+        margin-left: 25vw;
+        color: #ffffff;
+        font-weight: bolder;
+        font-size: medium;
+    }
 
-.aboutUsContainer button:hover {
-    cursor: pointer;
-}
+    .aboutUsContainer button:hover {
+        cursor: pointer;
+    }
 
 
 
 footer {
-    margin-top: 100vh;
+    margin-top: 25vh;
    background-image: url("assets/backgroundFooter.webp");
    background-repeat: no-repeat;
    background-size: cover;
