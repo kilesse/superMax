@@ -19,10 +19,9 @@
                 </div>
                 <div class="container">
                     <ul>
-                        <li><a href="/hidratante.html" target="_blank">PRODUTOS</a></li>
-                        <li><a href="https://www.instagram.com/supermaxi.oficial" target="_blank">KITS</a></li>
-                        <li><a href="https://wa.me/5531992149429" target="_blank">DISTRIBUIDORES</a></li>
-                        <li><a href="https://wa.me/5531992149429?text=Queria%20informações" target="_blank">CONTATO</a></li>
+                        <li><a href="#produto">PRODUTOS</a></li>
+                        <li><a href="index.html#distribuidores" target="_blank">DISTRIBUIDORES</a></li>
+                        <li><a href="/cotato.html" target="_blank">CONTATO</a></li>
                         <li>
                             <a href="tel:+5531992149429" target="_blank">
                                 <img src="assets/ligar.png" alt="sellfoneIcon">
@@ -45,21 +44,21 @@
 
     <section class="separator">
 
-        <div class="wrapper">
+        <div id="produto" class="wrapper">
             <hr>
             <h2>NOSSAS LINHAS</h2>
             <hr>
         </div>
-
         <div class="containerSeparator">
-            <h1 class="hidratante">HIDRATANTE</h1>
-            <h1 class="forMen1">FOR MEN</h1>
-            <h1 class="nutriamino1">NUTRIAMINO</h1>
-            <h1 class="hidratacao1">HIDRATAÇÃO TEIA</h1>
+            <a href="#hidratante"><h1 class="hidratante">HIDRATANTE</h1></a>
+            <a href="#formen"><h1 class="forMen1">FOR MEN</h1></a>
+            <a href="#nutriamino"><h1 class="nutriamino1">NUTRIAMINO</h1></a>
+            <a href="#hidradatacao"><h1 class="hidratacao1">HIDRATAÇÃO TEIA</h1></a>
         </div>
+        
     </section>
 
-    <section class="hidratanteSec">
+    <section id="hidratante" class="hidratanteSec">
         <h1>HIDRATANTE</h1>
         <p> A linha Originalli Hidratante foi desenvolvida para nutrir e revitalizar os fios danificados.
             O Shampoo promove uma higienização perfeita e trata os cabelos com ativos especiais. O
@@ -86,7 +85,7 @@
     </section>
 
 
-    <section class="forMen">
+    <section id="formen" class="forMen">
         <h1>FOR MEN</h1>
         <P>O Originalli For Men é um produto desenvolvido especialmente para o público masculino.
             Sua fórmula é prática e multifuncional, contendo a baicalina, que possui propriedades
@@ -102,7 +101,7 @@
 
 
     </section>
-    <section class="nutriamino">
+    <section id="nutriamino" class="nutriamino">
         <h1>NUTRIAMINO</h1>
         <p>A linha Originalli Nutriamino é um novo kit profissional de shampoo e
             condicionador com fórmula fortificante, protetora e dermatologicamente
@@ -119,7 +118,7 @@
         </div>
     </section>
 
-    <section class="mascara">
+    <section id="hidradatacao" class="mascara">
         <h1>MÁSCARA TEIA</h1>
         <p>A linha Teia foi desenvolvida para realizar um tratamento
             intensivo nos fios, oferecendo nutrição, restauração e emoliência.
@@ -139,10 +138,12 @@
     <section class="conhecer">
         <h1>VOCÊ QUER CONHECER MAIS SOBRE NOSSOS PRODUTOS?</h1>
         <div class="aboutUsContainer">
-            <input type="text" id="txtSendMensage" placeholder="Mande uma mensagem" />
-            <button class="submit">ENVIAR</button>
+            <label for="txtSendMensage" class="visually-hidden"></label>
+            <input type="text" id="txtSendMensage" name="message" placeholder="Informe seu e-mail" required />
+            <button class="submit" type="submit" aria-label="Enviar mensagem">ENVIAR</button>
         </div>
     </section>
+    
 
     <footer>
     <div class="footerWrapper">
@@ -151,10 +152,9 @@
           <img src="assets/logo2.webp" alt="Logo" />
         </div>
         <div class="distribuidores">
-          <a href="">Distribuidores</a>
-          <a href="">Produtos</a>
-          <a href="">Contato</a>
-          <a href="">Kits</a>
+          <a href="index.html#distribuidores">Distribuidores</a>
+          <a href="#produto">Produtos</a>
+          <a href="/cotato.html">Contato</a>
         </a>
         </div>
         <ul class="contacts">

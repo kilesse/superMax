@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="relaxForm.css">
 </head>
 
-<body>
+<body id="topo">
 
   <header>
     <nav>
@@ -21,10 +21,9 @@
       
       <div class="container">
           <ul>
-              <li><a href="/hidratante.html" target="_blank">PRODUTOS</a></li>
-              <li><a href="https://www.instagram.com/supermaxi.oficial" target="_blank">KITS</a></li>
-              <li><a href="https://wa.me/5531992149429?text=Queria%20informações" target="_blank">DISTRIBUIDORES</a></li>
-              <li><a href="https://wa.me/5531992149429?text=Queria%20informações" target="_blank">CONTATO</a></li>
+              <li><a href="#produto" target="_blank">PRODUTOS</a></li>
+              <li><a href="index.html#distribuidores" target="_blank">DISTRIBUIDORES</a></li>
+              <li><a href="/cotato.html" target="_blank">CONTATO</a></li>
               <li>
                   <a href="tel:+5531992149429">
                       <img src="assets/ligar.png" alt="sellfoneIcon">
@@ -55,8 +54,8 @@
         <h1>FORM</h1>
       </div>
     </div>
-
-    <img class="bannerProduct" src="assets/relaxFormProd.png" alt="produto">
+    
+    <img id="produto" class="bannerProduct" src="assets/relaxFormProd.png" alt="produto">
 
     <div class="containerProduct">
       <h1>PARA TODOS TIPOS DE CACHOS, UM SÓ PRODUTO!</h1>
@@ -152,15 +151,18 @@
 
   </section>
 
-  <section class="aboutUs">
+    <section class="aboutUs">
 
-   <div class="aboutUsWrapper">
-    <h1>VOCÊ QUER CONHERCER MAIS SOBRE NOSSOS PRODUTOS?</h1>
-    <div class="aboutUsContainer">
-      <input type="text" id="txtSendMensage" placeholder="Mande uma mensagem" />
-      <button class="submit">ENVIAR</button>
+    <div class="aboutUsWrapper">
+      <h1>VOCÊ QUER CONHERCER MAIS SOBRE NOSSOS PRODUTOS?</h1>
+      <div class="aboutUsContainer">
+        <form action="https://formspree.io/f/manenwzk" method="POST" class="aboutUsContainer">
+          <label for="txtSendMensage" class="visually-hidden"></label>
+          <input type="email" id="txtSendMensage" name="email" placeholder="Informe seu e-mail" required />
+          <button type="submit" class="submit" aria-label="Enviar mensagem">ENVIAR</button>
+        </form>
+      </div>
     </div>
-   </div>
 
    <img src="assets/sideBlackWoman2.png" alt="">
   </section>
@@ -170,32 +172,31 @@
   <footer>
         <div class="footerWrapper">
           <div>
-            <a href="index.html">
+            <a href="#topo">
             <img src="assets/logoBackPreto.png" alt="Logo" />
           </div>
           <div class="distribuidores">
-            <a href="">Distribuidores</a>
-            <a href="">Produtos</a>
-            <a href="">Contato</a>
-            <a href="">Kits</a>
+            <a href="index.html#distribuidores">Distribuidores</a>
+            <a href="#produto">Produtos</a>
+            <a href="/cotato.html">Contato</a>
           </div>
         </a>
           <ul class="contacts">
             <li>
               <img src="/assets/telefone copy.png" alt="">
-                <a href="https://wa.me/5531999999999" target="_blank">
-                    <i class="fa fa-whatsapp"></i> (31) 99999-9999
+                <a href="https://wa.me/5531992149429" target="_blank">
+                    <i class="fa fa-whatsapp"></i> (31)9 9214-9429
                 </a>
             </li>
             <li>
               <img src="/assets/email.png" alt="">
-                <a href="mailto:contato@supermaxi.com.br">
-                    <i class="fa fa-envelope"></i> contato@supermaxi.com.br
+                <a href="mailto:comercial@supermaxicosmeticos.com.br">
+                    <i class="fa fa-envelope"></i> comercial@supermaxicosmeticos.com.br
                 </a>
             </li>
             <li>
               <img src="/assets/instagram.png" alt="">
-                <a href="https://www.instagram.com/supermaxi.oficial/" target="_blank">
+                <a href="https://www.instagram.com/supermaxi.oficial" target="_blank">
                     <i class="fa fa-instagram"></i> @supermaxi.oficial
                 </a>
             </li>

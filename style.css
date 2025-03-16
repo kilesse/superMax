@@ -1,0 +1,89 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(215, 106, 158);
+    background: linear-gradient(90deg, rgba(215, 106, 158, 1) 4%, rgba(95, 108, 195, 1) 100%);
+    background-size: cover;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.3fr auto;
+    gap: 5%;
+    padding-top: 55px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.formulario-container {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-self: center;
+    align-self: center;
+    padding: 5% 10%;
+    height: 105%;
+
+}
+
+.formulario-container h2 {
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    color: #423977;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+.formulario-contato {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 5%;
+}
+
+
+.formulario-contato input {
+    font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
+    padding: 2%;
+    border: 2px solid #AD7FCB;
+    border-radius: 10px;
+
+}
+
+.formulario-contato textarea {
+    font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
+    resize: none;
+    height: 150px;
+    padding: 2%;
+    border: 2px solid #AD7FCB;
+    border-radius: 10px;
+}
+
+.formulario-contato button {
+border: none;
+background-color: #AD7FCB;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
+padding: 3% 1%;
+
+}
+
+.formulario-contato button:hover{
+    background-color: #8B5FBF;
+
+}

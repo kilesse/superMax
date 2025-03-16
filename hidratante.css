@@ -83,6 +83,9 @@ nav ul li a {
     align-items: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 .wrapper h2 {
     font-size: 5vh;
@@ -269,25 +272,28 @@ nav ul li a {
     color: #ffffff;
     padding-bottom: 4.9vh;
 }
-
 .conhecer {
     position: absolute;
     z-index: 11;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 390vh;
-    margin-left: 45vw;
+    left: 50%;
+    transform: translateX(-50%);
     color: rgb(0, 0, 0);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
 }
 
-.conhecer h1{
-font-size: 3.2vw;
-font-weight: bolder;
-text-align: center;
-margin-right: 13vw;
-margin-top: 5vh;
+.conhecer h1 {
+    font-size: 3.2vw;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5vh;
 }
-
 .aboutUsContainer {
     margin-top: 5vh;
     display: flex;

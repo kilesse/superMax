@@ -6,8 +6,7 @@
     <title>SuperMaxi - Produtos para Cabelos</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-
+    <body id="topo">
     <!----------------------------// CABEÇALHO //---------------------------->
     <header>
         <nav>
@@ -15,18 +14,15 @@
             <img src="assets/logo02.png" alt="SuperMaxi" class="logo">
             <ul class="menu">
                 <li>
-                    <a href="/hidratante.html" target="_blank">PRODUTOS</a>
+                    <a href="#produto" target="_blank">PRODUTOS</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/supermaxi.oficial" target="_blank">KITS</a>
-                </li>
-                <li>
-                    <a href="https://wa.me/5531992149429?text=Queria%20informações" target="_blank">
+                    <a href="#distribuidores">
                         DISTRIBUIDORES
                     </a>
                 </li>
                 <li>
-                    <a href="https://wa.me/5531992149429?text=Queria%20informações" target="_blank">
+                    <a href="/cotato.html" target="_blank">
                         CONTATO
                     </a>
                 </li>
@@ -59,7 +55,7 @@
         </div>
     </header>
     <!----------------------------// SEÇÃO DE PRODUTOS //---------------------------->
-    <section class="produtos">
+    <section id="produto" class="produtos">
         <h2>CONHEÇA OS NOSSOS PRODUTOS</h2>
         <div class="grid-produtos">
             <a href="#" class="produto">
@@ -89,7 +85,9 @@
     <!----------------------------// SEÇÃO SOBRE A EMPRESA //---------------------------->
     <section class="sobre">
         <div class="sobre-container">
+            <a href="#topo">
             <img src="assets/logo02.png" alt="logo" class="sobre-img">
+        </a>
             <div class="sobre-text">
         <p><strong>Qual a melhor forma de conhecer uma marca verdadeiramente?</strong> Para nós, da Supermaxi, é conhecendo a essência, valores, produtos e principalmente em como todas essas premissas e características se encaixam ao perfil dos nossos clientes.</p>
             </div>
@@ -101,7 +99,7 @@
     <section class="distribuidor">
         <div class="distribuidor-container">
             <div class="distribuidor-img">
-                <img src="assets/Imgem sem fundo.png" alt="Imagem Distribuidor">
+                <img src="/assets/Imgem sem fundo.png" alt="Imagem Distribuidor">
             </div>
             <div class="distribuidor-text">
                 <h2><strong> COMO SE 
@@ -127,27 +125,50 @@
     <section class="redes-sociais">
         <h2><strong>SIGA NOSSOS PERFIS</strong></h2><br>
         <h4><p>E FIQUE SEMPRE ATUALIZADO</p></h4><br>
+    
+        <!-- Instagram Feed (Curator.io) -->
+        <div class="instagram-feed" id="curator-feed-default-feed-layout">
+            <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+        </div>
+    
+        <!-- Script do Curator.io -->
+        <script type="text/javascript">
+            (function(){
+                var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+                i.src="https://cdn.curator.io/published/9045974c-8210-44c6-99e2-245265483a35.js";
+                e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+            })();
+        window.addEventListener('load', function () {
+            const observer = new MutationObserver(() => {
+                const badge = document.querySelector('.crt-logo');
+                if (badge) {
+                    badge.remove();
+                    observer.disconnect(); // Para de observar após a remoção
+                }
+            });
 
-        <img src="assets/divulgação.jpeg" alt="">
-    </section>
-
+            observer.observe(document.body, { childList: true, subtree: true });
+        });
+    </script>
+</section>
+    
+    
     <!----------------------------// RODAPÉ //---------------------------->
     <footer>
         <footer class="footer">
             <div class="container">
-
+                <a href="#topo">
                 <div class="logo">
-                    <a href="index.html">
+                        >
                     <img src="assets/logo02.png" alt="Supermaxi Logo">
                 </a>
                 </div>
     
                 <div class="info">
                     <ul class="links">
-                        <li><a href="#">Distribuidores</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Kits</a></li>
+                        <li><a href="#distribuidores">Distribuidores</a></li>
+                        <li><a href="#produto">Produtos</a></li>
+                        <li><a href="/cotato.html">Contato</a></li>
                     </ul>
     
                     <ul class="contacts">
