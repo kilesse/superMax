@@ -1,4 +1,4 @@
-/* Estilos gerais */
+/* Arquivo: style.css */
 * {
     margin: 0;
     padding: 0;
@@ -16,26 +16,19 @@ body {
 }
 
 section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.3fr auto;
-    gap: 5%;
-    padding-top: 55px;
-    padding-right: 5%;
-    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95.5vh;
 }
 
 .formulario-container {
-    grid-column: 2;
-    grid-row: 2;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    justify-self: center;
-    align-self: center;
-    padding: 5% 10%;
-    height: 105%;
-
+    box-shadow: 0 4px 8px rgba(72, 36, 102, 0.1);
+    padding: 7% 2%;
+    width: 90%;
+    max-width: 500px;
 }
 
 .formulario-container h2 {
@@ -45,45 +38,41 @@ section {
     padding-bottom: 5%;
 }
 
-
 .formulario-contato {
     display: grid;
-    grid-template-columns: 1;
-    gap: 5%;
+    grid-template-columns: 1fr;
+    gap: 15px; /* Aumentando o espaço entre os campos */
 }
 
-
-.formulario-contato input {
+.formulario-contato input,
+.formulario-contato select,
+.formulario-contato textarea {
     font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
-    padding: 2%;
+    padding: 12px; /* Aumentando o padding para dar mais espaçamento dentro dos campos */
     border: 2px solid #AD7FCB;
     border-radius: 10px;
-
+    color: #423977; /* Cor da fonte */
+    width: 100%;
+    box-sizing: border-box; /* Garantindo que o padding não afete o tamanho total do campo */
 }
 
 .formulario-contato textarea {
-    font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
     resize: none;
     height: 150px;
-    padding: 2%;
-    border: 2px solid #AD7FCB;
-    border-radius: 10px;
 }
 
 .formulario-contato button {
-border: none;
-background-color: #AD7FCB;
-color: white;
-border: none;
-border-radius: 10px;
-cursor: pointer;
-transition: 0.3s;
-font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
-padding: 3% 1%;
-
+    border: none;
+    background-color: #AD7FCB;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
+    padding: 15px;
+    width: 100%;
 }
 
-.formulario-contato button:hover{
+.formulario-contato button:hover {
     background-color: #8B5FBF;
-
 }

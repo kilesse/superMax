@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SuperMaxi - Produtos para Cabelos</title>
     <link rel="stylesheet" href="hidratante.css">
 </head>
 
@@ -138,9 +138,11 @@
     <section class="conhecer">
         <h1>VOCÊ QUER CONHECER MAIS SOBRE NOSSOS PRODUTOS?</h1>
         <div class="aboutUsContainer">
-            <label for="txtSendMensage" class="visually-hidden"></label>
-            <input type="text" id="txtSendMensage" name="message" placeholder="Informe seu e-mail" required />
-            <button class="submit" type="submit" aria-label="Enviar mensagem">ENVIAR</button>
+            <form action="https://formspree.io/f/mjkygaen" method="POST" class="aboutUsContainer">
+                <label for="txtSendMensage" class="visually-hidden"></label>
+                <input type="text" id="txtSendMensage" name="message" placeholder="Informe seu e-mail" required />
+                <button type="submit" class="submit" aria-label="Enviar mensagem">ENVIAR</button>
+              </form>
         </div>
     </section>
     
