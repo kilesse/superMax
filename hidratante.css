@@ -162,13 +162,14 @@ html {
 
 .hidratanteContainer {
     display: flex;
-    margin-top: 15vh;
+    margin-top: 14vh;
 }
 
 .hidratanteContainer h1 {
     font-size: 1.2vw;
     padding-right: 11vw;
-    padding-bottom: 8.5vh;
+    padding-bottom: 10vh;
+    padding-left: 1vw;
     font-weight: bolder;
     color: #ffffff;
 }
@@ -198,7 +199,7 @@ html {
 }
 
 .forMenContainer {
-    margin-top: 3.5vh;
+    margin-top: 2vh;
     
 }
 
@@ -209,7 +210,7 @@ html {
 .forMenContainer h1 {
     font-size: 1vw;
     color: #ffffff;
-    margin-top: 4vh;
+    margin-top: 6vh;
     margin-left: 5vw;
     margin-right: 15vw;
 }
@@ -243,9 +244,9 @@ html {
 .nutriaContainer{
     font-weight: bolder;
     display: flex;
-    gap: 11.4vw;
-    margin-top: 13vh;
-    margin-left: 6vw;
+    gap: 11.7vw;
+    margin-top: 15vh;
+    margin-left: 7vw;
     color: #ffffff;
 }
 
