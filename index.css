@@ -28,12 +28,8 @@ body {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
 header {
-    background-image: url("assets/atualizada.png");
+    background-image: url("assets/testedofundo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,12 +40,18 @@ header {
     justify-content: center;
     color: white;
     padding-bottom: 9vh;
-
-    
 }
 
+.mulher {
+    position: absolute;
+    margin-top: 99.2vh;
+    left: 55vw;
+}
 
-/* NAVBAR */
+.mulher img {
+    height: 83vh;
+}
+
 nav {
     width: 90vw;
     display: flex;
@@ -59,7 +61,7 @@ nav {
 }
 
 .logo {
-    width: 26vw;
+    width: 22vw;
     margin-right: 5vw;
 }
 
@@ -73,20 +75,27 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .menu li a {
     text-decoration: none;
     font-size: 1.4vw;
-    font-weight: bold;
+    font-weight: 490;
     color: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
 }
 
 .social-icons img {
     width: 2vw;
     margin-left: 0vw;
     margin-right: 2.2vw;
-
+    vertical-align: middle;
 }
+
+.social-icons img[alt="WhatsApp"] {
+    width: 2.8vw;
+    margin-top: 0.2vw;
+    vertical-align: middle;
+}
+
 
 .container {
     display: flex;
@@ -99,11 +108,11 @@ html {
 
 /* TEXTO */
 .text h1 {
-    font-size: 5.8vw;
+    font-size: 6vw;
     color: #511c35;
-    font-weight: 800;
+    font-weight: 550;
     line-height: 1.1;
-    margin-left: 2.6vw;
+    margin-left: 10vw;
 }
 /* ------------------- // PRODUTOS //------------------- */
 .grid-produtos {
@@ -173,7 +182,6 @@ h2 {
 }
 
 .sobre-text {
-    font-family: Arial, sans-serif;
     font-size: 2.5vh;
     font-weight: 450;
     color: #ffffff;
@@ -320,6 +328,9 @@ h2 {
     margin: 0 auto;
 }
 
+.crt-logo {
+    display: none !important;
+}
 
 
 
@@ -331,7 +342,6 @@ h2 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
@@ -394,6 +404,10 @@ html {
     flex-direction: column;
     gap: 8px;
   }
+
+.contacts img[alt="WhatsApp"] {
+    width: 2.8vw;
+}
   
   .contacts li {
     display: flex;

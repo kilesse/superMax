@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -36,24 +37,24 @@ section {
     color: #423977;
     text-align: center;
     padding-bottom: 5%;
+    margin-top: 35px; /* Adiciona espaço para evitar o corte do título */
 }
 
 .formulario-contato {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px; /* Aumentando o espaço entre os campos */
+    gap: 15px; /* Espaço entre os campos */
 }
 
 .formulario-contato input,
 .formulario-contato select,
 .formulario-contato textarea {
     font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
-    padding: 12px; /* Aumentando o padding para dar mais espaçamento dentro dos campos */
+    padding: 12px;
     border: 2px solid #AD7FCB;
     border-radius: 10px;
-    color: #423977; /* Cor da fonte */
+    color: #423977;
     width: 100%;
-    box-sizing: border-box; /* Garantindo que o padding não afete o tamanho total do campo */
 }
 
 .formulario-contato textarea {
@@ -61,7 +62,16 @@ section {
     height: 150px;
 }
 
-.formulario-contato button {
+/* Estilos dos botões */
+.botoes-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+    margin-top: 15px;
+}
+
+.botoes-container .botao-contato {
+    flex: 1; /* Ambos os botões terão o mesmo tamanho */
+    text-align: center;
     border: none;
     background-color: #AD7FCB;
     color: white;
@@ -70,9 +80,17 @@ section {
     transition: 0.3s;
     font-size: clamp(0.75em, 0.75em + 1.5vw, 1.3em);
     padding: 15px;
-    width: 100%;
+    text-decoration: none;
 }
 
-.formulario-contato button:hover {
+.botoes-container .botao-contato:hover {
     background-color: #8B5FBF;
+}
+
+.botao-voltar {
+    background-color: #C76BA5;
+}
+
+.botao-voltar:hover {
+    background-color: #A25487;
 }

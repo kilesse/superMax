@@ -50,7 +50,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 3.5vh;
+  font-size: 2.6  vh;
   font-weight: 200;
 }
 
@@ -84,7 +84,7 @@ flex-direction: column;
   padding: 0;
   font-size: 24vh;
   color: #423977;
-  font-weight: bold;
+  
   text-align: left;
   margin-left: 3vw;
   margin-top: 7vh;
@@ -152,14 +152,14 @@ flex-direction: column;
 .kitText{
   display: flex;
   flex-direction: row;
-  margin-top: 55vh;
+  margin-top: 47vh;
   margin-right: 3vw;
   
 }
 
 .kitText video {
-  width: 50vw;
-  height: 90vh;
+  width: 55vw;
+  height: 80vh;
   position: absolute;
 }
 
@@ -172,7 +172,7 @@ flex-direction: column;
 
 .text h1{
   color: #423977;
-  font-weight: bolder;
+ 
   font-size: 3.4vw;
   text-align: left;
   margin-left: 4.5vw;
@@ -202,7 +202,7 @@ flex-direction: column;
 
 .growth h1{
   color: #423977;
-  font-weight: bolder;
+ 
   font-size: 3vw;
 
 }
@@ -239,7 +239,7 @@ font-size: 1.5vw;
   background: rgb(119,49,216);
   background: linear-gradient(280deg, rgba(119,49,216,1) 0%, rgba(231,219,255,1) 99%);
   color: #ffffff;
-  font-weight: bolder;
+ 
 }
 
 .benefitsText h1{
@@ -306,7 +306,7 @@ font-size: 1.5vw;
   z-index: 1;
   font-size: 13vw;
   position: absolute;
-  font-weight: bolder;
+
   margin-left: 3vw;
   margin-top: 5vh;
   text-align: left;
@@ -356,7 +356,7 @@ font-size: 1.5vw;
   border: none;
   border-radius: 30px;
   color: #ffffff;
-  font-weight: bolder;
+  
   font-size: medium;
   transition: background 0.3s ease-in-out;
   margin-left: 24vw;
@@ -438,7 +438,7 @@ html {
 }
 
 footer h1{
-  font-weight: bolder;
+
   font-size: 4.5vw;
   color: #ffffff;
   margin-left: 0;
