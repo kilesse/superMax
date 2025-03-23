@@ -372,7 +372,7 @@ font-size: 1.5vw;
   color: #ffffff;
   
   font-size: medium;
-  transition: background 0.3s ease-in-out;
+  transition:0.3s ease-in-out;
   margin-left: 24vw;
   position: absolute;
 }
@@ -437,7 +437,7 @@ font-size: 1.5vw;
 #curator-feed-default-feed-layout {
   width: 100%;
   max-width: 70vw;
-  height: 54vh;
+  height: 55%;
   margin: 0 auto;  
 
 }
