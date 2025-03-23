@@ -328,10 +328,11 @@ h2 {
 #curator-feed-default-feed-layout {
     width: 100%;
     max-width: 70vw;
-    height: 55%;
+    height: 800px;
     margin: 0 auto;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px ;
+    background-color: red;
 }
 
 .crt-logo {
