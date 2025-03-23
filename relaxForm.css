@@ -22,7 +22,13 @@ header {
 }
 
 .logo {
-    margin-right: 7vw;
+    margin-right: 4vw;
+    height: 13vh;
+
+}
+
+.logo img{
+    width: 20vw;
 }
 
 .container {
