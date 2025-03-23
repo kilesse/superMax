@@ -3,6 +3,7 @@
     padding: 0;
     overflow-x: hidden;
     position: relative;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -46,6 +47,12 @@ header {
 .container img {
     width: 2vw;
 }
+
+.container img[alt="WhatsApp"] {
+    width: 2.8vw;
+    margin-top: -0.3vw;
+    vertical-align: middle;
+  }
 
 nav {
     margin-top: 0;
@@ -245,7 +252,7 @@ html {
     font-weight: bolder;
     display: flex;
     gap: 11.7vw;
-    margin-top: 15vh;
+    margin-top: 18.5vh;
     margin-left: 7vw;
     color: #ffffff;
 }

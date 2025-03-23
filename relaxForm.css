@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -38,6 +39,12 @@ header {
 
 .container img {
     width: 2vw;
+   
+}
+.container img[alt="WhatsApp"] {
+    width: 3vw;
+    margin-top: -0.3vw;
+    padding: 0;
 }
 
 nav {
@@ -47,11 +54,14 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    
 }
 
 nav ul li {
     margin: 0 2vw;
+    
 }
+
 
 nav ul li a {
     text-decoration: none;
