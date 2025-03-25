@@ -23,28 +23,32 @@ header {
 }
 
 .logo {
-    margin-right: 4vw;
+  
     height: 13vh;
+ 
 
 }
 
-.logo img{
+.logo img {
     width: 20vw;
+    margin-left: 3vw;
 }
 
 .container {
     display: flex;
-    margin-left: 5vw;
+    margin-left: 5.5vw;
 }
 
 .container img {
     width: 2vw;
-   
+
 }
+
 .container img[alt="WhatsApp"] {
     width: 3vw;
     margin-top: -0.3vw;
     padding: 0;
+    margin-left: 3.5vw;
 }
 
 nav {
@@ -54,20 +58,33 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    
+    margin-left: 1vw;
+
 }
 
 nav ul li {
-    margin: 0 2vw;
-    
+    margin: 0 1vw;
+
 }
+
 
 
 nav ul li a {
     text-decoration: none;
     color: #000000;
-    font-size: 3.5vh;
-    font-weight: 200;
+    font-size: 1.4vw;
+
+
+}
+
+.tagTop{
+    
+    margin: 1.5vh 1.5vw 0 2vw;
+}
+
+.tagTop1{
+    
+    margin: 1.5vh 1.5vw 0 10vw;
 }
 
 .banner {
@@ -107,6 +124,7 @@ nav ul li a {
     overflow: hidden;
 
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -146,7 +164,7 @@ video {
     height: 85vh;
     border-radius: 34px;
     background-color: #ffffff;
-    
+
 }
 
 .dicas {
@@ -258,7 +276,7 @@ video {
     margin-top: 10vh;
 }
 
-.side2Container{
+.side2Container {
     margin-top: 15vh;
 }
 
@@ -267,10 +285,10 @@ video {
     font-weight: bolder;
     font-size: 8vh;
     margin-left: 55vw;
-    
+
 }
 
-.side2 p{
+.side2 p {
     text-align: right;
     font-size: 3.7vh;
     font-weight: lighter;
@@ -279,98 +297,99 @@ video {
 }
 
 
-    .aboutUs{
-        margin-top: 12vh;
-    }
+.aboutUs {
+    margin-top: 12vh;
+}
 
-    .aboutUs img{
-        height: 64vh;
-        width: 43vw;
-        margin-left: 55vw;
-    }
+.aboutUs img {
+    height: 64vh;
+    width: 43vw;
+    margin-left: 55vw;
+}
 
-    .aboutUsWrapper{
-        margin-right: 50vw;
-        margin-left: 10vw;
-        text-align: left;
-        position: absolute;
-        overflow: hidden;
-        margin-top: 7vh;
-    }
+.aboutUsWrapper {
+    margin-right: 50vw;
+    margin-left: 10vw;
+    text-align: left;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 7vh;
+}
 
-    .aboutUsWrapper h1{
+.aboutUsWrapper h1 {
     font-size: 3vw;
 
-    }
+}
 
-    .aboutUsContainer {
-        margin-top: 8vh;
-        display: flex;
-    }
+.aboutUsContainer {
+    margin-top: 8vh;
+    display: flex;
+}
 
-    .aboutUsContainer input {
-        width: 30vw;
-        height: 7vh;
-        background-color: transparent;
-        border-style: none;
-        border: solid 2px #000000;
-        border-radius: 30px;
-        position: relative;
-        z-index: 100;
-        color: #000000;
-        padding-left: 1vw;
-        font-size: medium;
-    }
+.aboutUsContainer input {
+    width: 30vw;
+    height: 7vh;
+    background-color: transparent;
+    border-style: none;
+    border: solid 2px #000000;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+    color: #000000;
+    padding-left: 1vw;
+    font-size: medium;
+}
 
-    .aboutUsContainer input:focus {
-        outline: none;
-    }
+.aboutUsContainer input:focus {
+    outline: none;
+}
 
-    .aboutUsContainer input::placeholder {
-        color: #000000;
-        /* Define a cor desejada */
-    }
+.aboutUsContainer input::placeholder {
+    color: #000000;
+    /* Define a cor desejada */
+}
 
 
-    .aboutUsContainer button {
-        height: 7vh;
-        width: 10vw;
-        background: rgb(0, 0, 0);
-        background: linear-gradient(282deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 72%);
-        border-style: none;
-        border-radius: 30px;
-        position: absolute;
-        z-index: 900;
-        margin-left: 25vw;
-        color: #ffffff;
-        font-weight: bolder;
-        font-size: medium;
-    }
+.aboutUsContainer button {
+    height: 7vh;
+    width: 10vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(282deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 72%);
+    border-style: none;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 900;
+    margin-left: 25vw;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+}
 
-    .aboutUsContainer button:hover {
-        cursor: pointer;
-    }
+.aboutUsContainer button:hover {
+    cursor: pointer;
+}
 
 
 
 footer {
     margin-top: 25vh;
-   background-image: url("assets/backgroundFooter.webp");
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-image: url("assets/backgroundFooter.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 5vh;
-   
+
 }
 
-footer h1{
+footer h1 {
     font-weight: bolder;
     font-size: 4.5vw;
     color: #000000;
     margin-left: 0;
     margin-bottom: 10vh;
-    
+
 }
-footer h3{
+
+footer h3 {
     color: #000000;
     font-size: 4vh;
     margin-top: 5vh;
@@ -379,22 +398,22 @@ footer h3{
 
 
 
-.footerWrapper a{
-text-decoration: none;
-color: #000000;
+.footerWrapper a {
+    text-decoration: none;
+    color: #000000;
 }
 
-.footerWrapper{
+.footerWrapper {
     display: flex;
     margin-left: 15vw;
     margin-bottom: 15vh;
 }
 
-.footerWrapper img{
+.footerWrapper img {
     width: 20vw;
 }
 
-.distribuidores{
+.distribuidores {
     display: flex;
     flex-direction: column;
     font-size: 1.5vw;
@@ -410,44 +429,47 @@ color: #000000;
     display: flex;
     flex-direction: column;
     gap: 8px;
-  }
-  
-  .contacts li {
+}
+
+.contacts li {
     display: flex;
     align-items: center;
-  }
-  
-  .contacts a {
+}
+
+.contacts a {
     display: flex;
     align-items: center;
-    gap: 8px; /* Espaço entre o ícone e o texto */
+    gap: 8px;
+    /* Espaço entre o ícone e o texto */
     font-size: 16px;
     color: white;
     text-decoration: none;
-  }
-  
-  .contacts a:hover {
-    color: #ddd; /* Efeito hover */
-  }
-  
-  .contacts i {
-    font-size: 18px; /* Tamanho dos ícones */
+}
+
+.contacts a:hover {
+    color: #ddd;
+    /* Efeito hover */
+}
+
+.contacts i {
+    font-size: 18px;
+    /* Tamanho dos ícones */
     color: white;
-  }
-  
-  .contacts img {
+}
+
+.contacts img {
     width: 2.5vw;
-  }
+}
 
-.centerImg{
+.centerImg {
     padding-top: 5vh;
 }
 
-.bottonImg{
+.bottonImg {
     padding-top: 5vh;
 }
 
-footer hr{
+footer hr {
     margin-left: 5vw;
     margin-right: 5vw;
     border-color: #000000;

@@ -45,6 +45,7 @@ width: 2vw;
   width: 2.8vw;
   margin-top: -0.3vw;
   vertical-align: middle;
+  margin-left: 8vw;
 }
 
 nav {
@@ -55,17 +56,17 @@ nav ul {
   list-style: none;
   display: flex;
   margin-top: 1.5vh;
+  margin-left: 3vw;
 }
 
-nav ul li {
-  margin: 0 2.5vw;
-}
+
 
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 2.6vh;
-  font-weight: 200;
+  font-size: 1.4vw;
+  margin-right: 2vw;
+
 }
 
 
@@ -431,15 +432,26 @@ font-size: 1.5vw;
   margin: 0 auto;
   overflow: hidden;
 }
-
-
+.crt-logo {
+  color: transparent;
+}
 
 #curator-feed-default-feed-layout {
-  width: 100%;
-  max-width: 70vw;
-  height: 800px;
-  margin: 0 auto;  
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
 
+.crt-logo {
+  display: none !important;
+}
+
+.crt-grid-post-content{
+  overflow: hidden;
+
+}
+.crt-post-hover {
+  display: none !important;
 }
 
 

@@ -79,7 +79,6 @@ html {
 .menu li a {
     text-decoration: none;
     font-size: 1.4vw;
-    font-weight: 490;
     color: rgb(255, 255, 255);
 }
 
@@ -321,26 +320,26 @@ h2 {
     margin: 0 auto;
     overflow: hidden;
 }
-.crt-logo {
-    color: transparent;
-}
+
+
 
 #curator-feed-default-feed-layout {
-    width: 100%;
-    max-width: 70vw;
-    height: 800px;
+    width: 1000px;
+    height: 500px;
     margin: 0 auto;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px ;
-    background-color: red;
+
+
 }
+
 
 .crt-logo {
     display: none !important;
 }
 
 
-
+.crt-post-hover {
+    display: none !important;
+  }
 
 
 /* ------------------- // RODAPÉ //------------------- */

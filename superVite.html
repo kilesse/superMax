@@ -25,13 +25,13 @@
         </div>
         <div class="container">
           <ul>
-              <li>
+              <li class="tagTop">
                   <a href="#produto" >PRODUTOS</a>
               </li>
-              <li>
+              <li class="tagTop">
                   <a href="index.html#distribuidores" >DISTRIBUIDORES</a>
               </li>
-              <li>
+              <li class="tagTop">
                 <a href="cotato.html" >CONTATO</a>
               </li>
               <li>
@@ -168,28 +168,29 @@
     <h4><p>E FIQUE SEMPRE ATUALIZADO</p></h4><br>
   
     <!-- Instagram Feed (Curator.io) -->
-    <div class="instagram-feed" id="curator-feed-default-feed-layout"></div>
-  
-    <!-- Script do Curator.io -->
-    <script type="text/javascript">
-        (function(){
-            var i,e,d=document,s="script";
-            i=d.createElement("script");i.async=1;i.charset="UTF-8";
-            i.src="https://cdn.curator.io/published/9045974c-8210-44c6-99e2-245265483a35.js";
-            e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-        })();
-  
-        window.addEventListener('load', function () {
-            const observer = new MutationObserver(() => {
-                const badge = document.querySelector('.crt-logo');
-                if (badge) {
-                    badge.style.display = 'none';
-                    observer.disconnect();
-                }
-            });
-            observer.observe(document.body, { childList: true, subtree: true });
-        });
-    </script>
+    <div class="instagram-feed" id="curator-feed-default-feed-layout">
+      <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+  </div>
+
+  <!-- Script do Curator.io -->
+  <script type="text/javascript">
+      (function(){
+          var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+          i.src="https://cdn.curator.io/published/9045974c-8210-44c6-99e2-245265483a35.js";
+          e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+      })();
+  window.addEventListener('load', function () {
+      const observer = new MutationObserver(() => {
+          const badge = document.querySelector('.crt-logo');
+          if (badge) {
+              badge.remove();
+              observer.disconnect(); // Para de observar após a remoção
+          }
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+  });
+</script>
   </section>
   
 

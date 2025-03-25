@@ -36,22 +36,39 @@ header {
 }
 
 .logo {
-    margin-right: 7vw;
+    margin-right: 6vw;
+    margin-left: 2vw;
+}
+
+.logo img{
+    height: 7vh;
 }
 
 .container {
     display: flex;
-    margin-left: 5vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
 }
 
 .container img {
     width: 2vw;
+}
+.separatorHeader{
+    padding-right: 8vw;
 }
 
 .container img[alt="WhatsApp"] {
     width: 2.8vw;
     margin-top: -0.3vw;
     vertical-align: middle;
+  }
+
+  .tagTop{
+    margin: 0 1.4vw;
+  }
+
+  .tagTop1{
+   margin: 0 1.4vw 0 6vw;
   }
 
 nav {
@@ -61,17 +78,19 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+  
 }
 
 nav ul li {
-    margin: 0 2vw;
+    margin: 0 1vw;
+ 
 }
 
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.8vw;
-    font-weight: 200;
+    font-size: 1.3vw;
+
 }
 
 .separator {
@@ -252,7 +271,7 @@ html {
     font-weight: bolder;
     display: flex;
     gap: 11.7vw;
-    margin-top: 18.5vh;
+    margin-top: 15vh;
     margin-left: 7vw;
     color: #ffffff;
 }
