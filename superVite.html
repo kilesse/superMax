@@ -243,23 +243,25 @@
 const controls = document.querySelectorAll('.control');
 const gallery = document.querySelector('.gallery');
 
+function moveCarousel(forward = true) {
+  if (forward) {
+    const firstItem = gallery.firstElementChild;
+    gallery.appendChild(firstItem);
+  } else {
+    const lastItem = gallery.lastElementChild;
+    gallery.prepend(lastItem);
+  }
+}
+
+// Adiciona eventos aos botões de controle
 controls.forEach(control => {
   control.addEventListener('click', () => {
     const isLeft = control.classList.contains('arrow-left');
-
-    if (isLeft) {
-      const firstItem = gallery.firstElementChild;
-      gallery.appendChild(firstItem);
-      // Remove o último e coloca no início
-      
-      
-    } else {
-      // Remove o primeiro e coloca no final
-      const lastItem = gallery.lastElementChild;
-      gallery.prepend(lastItem);
-    }
+    moveCarousel(!isLeft);
   });
 });
+
+setInterval(() => moveCarousel(true), 2000);
 
 
   </script>

@@ -149,7 +149,7 @@ h2 {
 .produto img {
     width: 100%;
     height: auto;
-    border-radius: 2vh;
+    border-radius: 2.3vh;
     transition: transform 0.3s;
 }
 
