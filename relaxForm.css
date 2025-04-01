@@ -196,7 +196,22 @@ video {
     height: 20vh;
     width: 10.5vw;
     margin-top: 8vh;
+ 
   
+
+}
+
+.numberWrapper5{
+    height: 100vh;
+}
+
+.number5{
+    position: absolute;
+    font-size: 5vw !important;
+    font-weight: lighter !important;
+    
+    margin-left: 3.8vw;
+    overflow: hidden;
 
 }
 
@@ -205,7 +220,7 @@ video {
     flex-direction: row;
     margin-right: 18vw;
     overflow: hidden;
-   
+   height: 35vh;
 }
 
 .numberContainer h2 {
