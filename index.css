@@ -40,6 +40,7 @@ header {
     justify-content: center;
     color: white;
     padding-bottom: 9vh;
+    width: 100vw;
 }
 
 .mulher {
@@ -50,6 +51,7 @@ header {
 
 .mulher img {
     height: 83vh;
+    width: 45vw;
 }
 
 nav {
@@ -95,7 +97,7 @@ html {
     vertical-align: middle;
 }
 
-.social-icons a{
+.social-icons a {
     text-decoration: none;
 }
 
@@ -117,6 +119,7 @@ html {
     line-height: 1.1;
     margin-left: 10vw;
 }
+
 /* ------------------- // PRODUTOS //------------------- */
 .grid-produtos {
 
@@ -129,6 +132,7 @@ html {
     margin-bottom: 1vh;
     margin-top: 11vh;
 }
+
 h2 {
     text-align: center;
     font-size: 2.5vw;
@@ -174,12 +178,12 @@ h2 {
 .sobre-container {
     display: flex;
     align-items: center;
-    max-width: 70vw;
+    width: 10vw;
     width: 100%;
 }
 
 .sobre-img {
-    max-width: 50vw;
+    width: 25vw;
     height: auto;
     margin-left: 5vw;
 }
@@ -205,8 +209,8 @@ h2 {
 }
 
 .distribuidor-img {
-    max-width: 90vw;
-    max-height: 60vh;
+    width: 90vw;
+    height: 60vh;
     display: flex;
     justify-content: center;
 }
@@ -220,14 +224,17 @@ h2 {
 }
 
 .distribuidor-text {
-    max-width: 50vw;
-    text-align: left;
+    width: 70vw;
+    padding-right: 5vw;
+   text-align: right;
+
+
 }
 
 .distribuidor-text h2 {
     font-size: 5vh;
     margin-bottom: 3vh;
-    margin-right: 17.3vw;
+
     text-align: right;
     color: #423977;
 }
@@ -235,8 +242,6 @@ h2 {
 .distribuidor-text p {
     font-size: 2.5vh;
     margin-bottom: 2vh;
-    margin-left: 12vw;
-    margin-right: 37vh;
     text-align: right;
 }
 
@@ -252,8 +257,9 @@ h2 {
     border-radius: 2vh;
     cursor: pointer;
     transition: 0.3s;
-    margin-left: 14.8vw;
-    margin-right: 5vh;
+    width: 17vw;
+    height: 8vh;
+
 }
 
 .botao-contato:hover {
@@ -294,7 +300,8 @@ h2 {
         text-align: center;
     }
 
-    .distribuidor-img, .distribuidor-text {
+    .distribuidor-img,
+    .distribuidor-text {
         max-width: 80vw;
     }
 
@@ -339,12 +346,12 @@ h2 {
 
 .crt-post-hover {
     display: none !important;
-  }
+}
 
 
 /* ------------------- // RODAPÉ //------------------- */
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -372,15 +379,14 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 85vw;
+    width: 85vw;
     margin-right: 11vw;
     flex-wrap: wrap;
 }
 
 .logo img {
-    width: 24vw; 
+    width: 24vw;
     height: auto;
-    margin-left: 16vw;
 }
 
 .info {
@@ -393,14 +399,14 @@ html {
 .links {
     list-style: none;
     text-align: left;
-    margin-left: 9vw;
+    margin-left: 5vw;
 }
 
 .links li {
     margin: 1.5vh 0;
     display: flex;
-    align-items: center;    
-    
+    align-items: center;
+
 }
 
 .contacts {
@@ -409,49 +415,49 @@ html {
     display: flex;
     flex-direction: column;
     gap: 8px;
-  }
+}
 
 .contacts img[alt="WhatsApp"] {
     width: 2.8vw;
 }
-  
-  .contacts li {
+
+.contacts li {
     display: flex;
     align-items: center;
     margin-right: 10vw;
-  }
-  
-  .contacts a {
+}
+
+.contacts a {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: white;
     text-decoration: none;
     border: none;
     background-color: transparent;
-  }
-  
-  .contacts a:hover {
+}
+
+.contacts a:hover {
     color: #ddd;
-  }
-  
-  .contacts i {
+}
+
+.contacts i {
     font-size: 18px;
     color: white;
-  }
-  
-  .contacts img {
+}
+
+.contacts img {
     width: 2vw;
     margin-right: 1vw;
-  }
+}
 
 .links a {
     color: white;
     text-decoration: none;
-    font-size: 1.8vh;   
-    margin-right: 8vh;
-    
+    font-size: 1.8vh;
+    padding-right: 8vh;
+
 }
 
 .divider {

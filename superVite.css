@@ -341,12 +341,12 @@ padding-top: 1%;
 .aboutUsContainer {
   margin-top: 5vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  position: relative;
+ 
 }
 
 .aboutUsContainer input {
+  position: absolute;
   width: 35vw;
   height: 8vh;
   background-color: transparent;
@@ -354,7 +354,9 @@ padding-top: 1%;
   border-radius: 30px;
   color: #ffffff;
   padding-left: 1vw;
+  margin-left: 11vw;
   font-size: medium;
+  z-index: 10;
 }
 
 .aboutUsContainer input:focus {
@@ -372,11 +374,12 @@ padding-top: 1%;
   border: none;
   border-radius: 30px;
   color: #ffffff;
-  
   font-size: medium;
   transition:0.3s ease-in-out;
-  margin-left: 24vw;
-  position: absolute;
+  margin-left: 34vw;
+
+  z-index: 10;
+ 
 }
 
 .aboutUsContainer button:hover {
