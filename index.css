@@ -473,11 +473,33 @@ html {
 }
 
 
-
+/* ----------  // MOBILE REWORK  //---------*/
 @media(max-width: 450px ) {
     body{
         overflow-x: hidden;
         max-width: 100% !important;
+    }
+
+    .logo {
+    width: 15vw;
+    margin-left: -2vw;
+    }
+
+    .menu li a{
+        font-size: 1.15vh;
+       
+    }
+    .menu{
+        margin-left: -11vw;
+        margin-top: -0.5vh;
+    }
+
+    .social-icons img{
+        width: 3vw;
+    }
+
+    .social-icons img[alt="WhatsApp"] {
+        width: 4vw !important;
     }
 
     .text h1{
@@ -496,12 +518,19 @@ html {
         margin-top: 50vh;
     }
 
-  
-
     header{
         width: 100vw;
         height: 43.8vh !important;
     }
+
+    h2{
+        margin-top: 5vh;
+     }
+ 
+     .grid-produtos{
+         margin-top: 5vh;
+     }
+
 
     .footer{
         width: 100%;
