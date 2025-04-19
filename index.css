@@ -481,19 +481,26 @@ html {
     }
 
     .text h1{
-        font-size: 8.5vw;
+        font-size: 7.5vw;
+        margin-left: 4vw;
+        margin-top: 3vh;
     }
 
     .mulher img{
-        height: 45vh !important;
+        height: 30vh !important;
         width: 55vw;
-        margin-top: -450vh !important;
         padding-top: 0 !important;
+        margin-left: -8vw;
     }
+    .mulher{
+        margin-top: 50vh;
+    }
+
+  
 
     header{
         width: 100vw;
-        height: 53.8vh !important;
+        height: 43.8vh !important;
     }
 
     .footer{
