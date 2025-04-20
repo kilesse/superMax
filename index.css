@@ -527,18 +527,24 @@ html {
 
      .distribuidor-img{
         height: 40vh;
+        margin-left: -17vw;
      }
 
      .distribuidor-text h2{
         text-align: center;
         font-size: 5vw ;
+        margin-left: 2vw;
      }
 
      .distribuidor-text p{
         text-align: justify;
         font-size: 3vw;
+        margin-left: 2vw;
      }
-   
+
+     .distribuidor-text p strong{
+        margin-left: 6.5vw;
+     }
 
      .botao-contato {
         width: 50vw;
@@ -547,20 +553,33 @@ html {
         margin-right: 7vw;
     }
 
+    .redes-sociais{
+        margin-top: -5vh;
+    }
+
     .distribuidor-container {
         flex-direction: column;
         text-align: center;
-    }
-
-   
+    } 
 
     #curator-feed-default-feed-layout{
-        height: 38vh;
+        height: 273px;
         width: 35vw;
     }
 
+    .footer{
+        margin-top: 5vh;
+    }
 
-    
+    .logo img {
+        width: 15vw !important;
+        margin-left: -15vw;
+    }
+
+    .info ul li a{
+        font-size: 2vw;
+        margin-left: -15vw;
+    }
 
 
 }
