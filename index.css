@@ -295,22 +295,7 @@ h2 {
     height: 15vh;
 }
 
-@media (max-width: 768px) {
-    .distribuidor-container {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .distribuidor-img,
-    .distribuidor-text {
-        max-width: 80vw;
-    }
-
-    .botao-contato {
-        width: 60vw;
-        ;
-    }
-}
 
 /* ------------------- // REDES SOCIAIS //------------------- */
 .redes-sociais {
@@ -335,7 +320,6 @@ h2 {
     width: 1000px;
     height: 500px;
     margin: 0 auto;
-
 
 }
 
@@ -531,16 +515,52 @@ html {
          margin-top: 5vh;
      }
 
+     .sobre-text{
+        font-size: 2vw;
+        margin-left: 5vw;
+        margin-right: 2vw;
+     }
 
-    .footer{
-        width: 100%;
+     .sobre-img{
+        width: 26vw;
+     }
 
+     .distribuidor-img{
+        height: 40vh;
+     }
+
+     .distribuidor-text h2{
+        text-align: center;
+        font-size: 5vw ;
+     }
+
+     .distribuidor-text p{
+        text-align: justify;
+        font-size: 3vw;
+     }
+   
+
+     .botao-contato {
+        width: 50vw;
+        font-size: 3vw;
+        height: min-content;
+        margin-right: 7vw;
     }
 
-    .links li a{
-        font-size: 1.6vw ;
+    .distribuidor-container {
+        flex-direction: column;
+        text-align: center;
     }
 
+   
+
+    #curator-feed-default-feed-layout{
+        height: 38vh;
+        width: 35vw;
+    }
+
+
+    
 
 
 }
