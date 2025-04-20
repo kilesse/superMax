@@ -483,6 +483,10 @@ color: #ffffff;
         width: 100vw;
     }
 
+    header{
+        padding-top: 3vh;
+    }
+
     .logo img{
         width: 15vw;
         height: 1.5vh;
@@ -536,16 +540,109 @@ color: #ffffff;
 
     .hidratanteSec p{
         margin-top: 2vh;
-        font-size: 2vw;
+        font-size: 1.85vw;
     }
 
     .hidratanteContainer{
-    margin-top: 5vh;
+    margin-top: 3.5vh;
     }
 
     .hidratanteContainer h1 {
         margin-bottom: -5vh;
     }
 
+    .forMen {
+        margin-top: 115vh;
+    }
 
+    .forMenContainer{
+        margin-top: 0.5vh;
+    }
+
+    .forMen h1{
+        margin-top: 3vh;
+    }
+    
+    .nutriamino{
+        margin-top: 155vh;
+    }
+
+    .nutriamino p{
+        font-size: 1.6vw;
+    }
+
+    .nutriaContainer{
+        margin-top: 6vh;
+    }
+
+    .nutriCarac{
+        font-size: 1.55vw;
+        margin-left: -1.5vw;
+    }
+
+    .mascara{
+        margin-top: 195vh;
+    }
+
+    .mascara p{
+        font-size: 1.55vw;
+    }
+
+    .descMascara h1{
+        padding-bottom: 4vh;
+        margin-left: 2vw;
+    }
+
+    .conhecer{
+        margin-top: 235vh;
+    }
+
+    .aboutUsContainer{
+        margin-top: 3vh;
+    }
+    .aboutUsContainer input {
+        width: 65vw;
+        height: 4vh;
+        font-size: 2.7vw;
+    }
+
+    .aboutUsContainer button{
+        width: 25vw;
+        height: 4.5vh;
+        font-size: 2.7vw;
+        margin-left: 43.5vw;
+    }
+
+    footer{
+        margin-top: 275vh;
+    }
+
+    .footerWrapper img{
+        width: 15vw;
+        margin-top: 6vh;
+        margin-left: 0vw;
+    }
+
+    .footerWrapper{
+        margin-left: 2vw;
+    }
+
+    .contacts {
+        gap: 1px;
+    }
+
+    .distribuidores{
+        
+        height: 15vh;
+    }
+
+    .contacts img{
+        width: 5vw;
+        margin-top: 2.3vh;
+    }
+
+    .contacts li a{
+        margin-top: 2.5vh;
+        font-size: 2.4vw;
+    }
 }
