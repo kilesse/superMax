@@ -529,4 +529,23 @@ color: #ffffff;
     .containerSeparator{
         margin-left: 9vw;
     }
+
+    .hidratanteSec{
+        margin-top: 72vh;
+    }
+
+    .hidratanteSec p{
+        margin-top: 2vh;
+        font-size: 2vw;
+    }
+
+    .hidratanteContainer{
+    margin-top: 5vh;
+    }
+
+    .hidratanteContainer h1 {
+        margin-bottom: -5vh;
+    }
+
+
 }
