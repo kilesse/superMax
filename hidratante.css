@@ -479,7 +479,7 @@ color: #ffffff;
 
 @media(max-width: 450px ){
     .background{
-        height: 350vh;
+        height: 300vh;
         width: 100vw;
     }
 
@@ -509,7 +509,7 @@ color: #ffffff;
 
 
     .wrapper{
-        margin-top: 60vh;
+        margin-top: 52vh;
         margin-left: 17vw;
     }
 
