@@ -17,7 +17,6 @@ body {
     height: 750vh;
     width: 100vw;
     z-index: 1;
-
 }
 
 .marcadagua {
@@ -476,4 +475,58 @@ color: #ffffff;
 
 .bottonImg{
     padding-top: 5vh;
+}
+
+@media(max-width: 450px ){
+    .background{
+        height: 350vh;
+        width: 100vw;
+    }
+
+    .logo img{
+        width: 15vw;
+        height: 1.5vh;
+       
+    }
+
+    nav ul li a{
+        font-size: 2vw;
+    }
+
+    nav ul .container{
+        margin-left: -5vw;
+        margin-top: -0.2vh;
+    }
+
+    .container img{
+        width: 3.3vw;
+    }
+
+    .container img[alt="WhatsApp"]{
+        width: 4.8vw;
+        margin-top: -1vh;
+    }
+
+
+    .wrapper{
+        margin-top: 60vh;
+        margin-left: 17vw;
+    }
+
+    .wrapper h2{
+        font-size: 4vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .wrapper hr {
+        height: 0.1vh;
+    }    
+
+    .containerSeparator a h1{
+        font-size: 2.5vw;
+    }
+
+    .containerSeparator{
+        margin-left: 9vw;
+    }
 }
