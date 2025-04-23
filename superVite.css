@@ -113,7 +113,8 @@ flex-direction: column;
   margin-left: 62vw;
   z-index: 0;
 }
-/* Container do carrossel */
+
+
 .carousel{
   position: absolute;
   margin: 67vh auto;
@@ -552,4 +553,190 @@ width: 2.5vw;
 
 .bottonImg{
   padding-top: 5vh;
+}
+
+
+/* ------------------- // MELHORIAS DE RESPONSIVIDADE //------------------- */
+
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+    max-width: 100% !important;
+  }
+
+  .logo {
+    width: 35vw;
+    margin-left: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+  }
+
+  nav ul li a {
+    font-size: 4vw;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .container img {
+    width: 6vw;
+  }
+
+  .container img[alt="WhatsApp"] {
+    width: 7vw;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 5vh 4vw;
+    align-items: center;
+  }
+
+  .topImage {
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+
+  .topImage h1 {
+    font-size: 12vw;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .womanTop {
+    position: static;
+    width: 65vw;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  .carousel {
+    position: relative;
+    margin-top: 4vh;
+  }
+
+  .kitText {
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+
+  .kitText video {
+    width: 90vw;
+    height: auto;
+    position: static;
+  }
+
+  .text {
+    margin: 5vh auto;
+  }
+
+  .text h1 {
+    font-size: 5.5vw;
+    text-align: center;
+  }
+
+  .text h3 {
+    font-size: 3.5vw;
+    text-align: justify;
+  }
+
+  .containerGrowth {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerGrowth h3 {
+    font-size: 3vw;
+    text-align: justify;
+    margin: 2vh 5vw;
+  }
+
+  .containerGrowth img {
+    width: 90vw;
+    margin: 3vh auto;
+  }
+
+  .benefitsWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .benefitsContainer h3 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .imgBackground {
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 4vw;
+  }
+
+  .imgBackground h1 {
+    font-size: 10vw;
+    text-align: center;
+    position: static;
+    margin: 0;
+  }
+
+  .imgBackground img {
+    width: 80vw;
+    height: auto;
+  }
+
+  .aboutUsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutUsContainer input,
+  .aboutUsContainer button {
+    width: 80vw;
+    margin-left: 0;
+    margin-top: 2vh;
+  }
+
+  footer h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .footerWrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .footerWrapper img {
+    width: 40vw;
+  }
+
+  .distribuidores {
+    font-size: 3vw;
+    margin: 2vh 0;
+    text-align: center;
+  }
+
+  .contacts img {
+    width: 6vw;
+  }
+
+  .contacts a {
+    font-size: 3vw;
+    justify-content: center;
+  }
 }
