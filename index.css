@@ -569,6 +569,7 @@ html {
 
     .footer{
         margin-top: 5vh;
+        padding-left: 5vw;
     }
 
     .logo {
@@ -579,7 +580,7 @@ html {
     .links{
         margin-left: -15vw;
     }
-
+    
    
 
     .info{
