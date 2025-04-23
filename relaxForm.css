@@ -501,3 +501,185 @@ footer hr {
     margin-right: 5vw;
     border-color: #000000;
 }
+
+
+@media (max-width: 450px) {
+    header{
+        padding: 0;
+        padding-top: 1vh;
+    }
+
+    .tagTop1{
+        margin-top: 0;
+    }
+
+    .tagTop{
+        margin-top: 0;
+    }
+
+    .container img[alt="WhatsApp"] {
+        margin-top: 0.5vh;
+    }
+
+    .topWoman{
+        height: 50vh;
+    }
+
+    .backgroundBanner{
+        height: 60vh;
+    }
+
+    .h1Container{
+        margin-left: 4vw;
+    }
+
+    .bannerProduct{
+        height: 25vh;
+        width: auto;
+        margin-left: 62vw;
+        margin-top: 50vh;
+    }
+
+    .containerProduct{
+        margin-top: 63vh;
+    }
+
+    .containerProduct h1{
+        font-size: 3vw;
+    }
+
+    .containerProduct p{
+        font-size: 2vw;
+    }
+
+    .banner{
+        height: 85vh;
+    }
+
+    video{
+        width: 96vw;
+        height: auto;
+    }
+
+    .dicas h3{
+        font-size: 2.7vw;
+        margin-top: 2vh;
+    }
+
+    .dicas img{
+        height: 8vh;
+        width: 15vw;
+        margin-top: 7vh;
+    }
+
+    .number{
+        margin-left: 6vw;
+    }
+
+    .numberContainer{
+        height: 15vh;
+    }
+
+    .numberWrapper {
+        height: 15vh;
+    }
+
+    .numberWrapper h1{
+        margin-top: 10vh;
+    }
+
+    .numberContainer h2{
+        margin-left: 18vw;
+        margin-right: 10vw;
+        margin-top: 10vh;
+    }
+
+    .cachos{
+        margin-top: 85vh;
+    }
+
+    .side1{
+        margin-bottom: 12vh;
+    }
+
+    .side1 img{
+        height: 35vh;
+    }
+
+    .side1 h1, .side2 h1 {
+        font-size: 5vw;
+    }
+
+    .side1 p, .side2 p {
+        font-size: 3vw;
+        margin-top: 2vh;
+    }
+
+    .side2 {
+        margin-right: 2vw;
+        margin-bottom: 8vh;
+    }
+
+    .side2 img {
+        height: 25vh;
+        width: 55vw;
+        margin-top: -2vh;
+    }
+
+    .side2Container{
+        margin-top: 0;
+    }
+
+    .aboutUs{
+        margin-top: 0;
+    }
+
+    .aboutUs img{
+        height: 28vh;
+        width: 50vw;
+        margin-left: 50vw;
+    }
+
+    .aboutUsContainer {
+        margin-top: 2vh;
+    }
+
+    .aboutUsContainer input{
+        height: 5vh;
+        width: 40vw;
+        font-size: 2.5vw;
+    }
+
+    .aboutUsWrapper{
+        margin-left: 2vw;
+    }
+
+    .aboutUsContainer button {
+        width: 15.5vw;
+        font-size: 2.5vw;
+        height: 5vh;
+    }
+
+    footer {
+        margin-top: 2vh;
+    }
+
+    .contacts a{
+        font-size: 2vw;
+    }
+
+    .footerWrapper{
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    .footerLogo{
+        margin-top: 2vh;
+    }
+
+    footer h3{
+        font-size: 3vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+}

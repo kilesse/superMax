@@ -571,14 +571,27 @@ html {
         margin-top: 5vh;
     }
 
-    .logo img {
-        width: 15vw !important;
+    .logo {
+        width: 10vw !important;
+        margin-left: -35vw;
+    }
+
+    .links{
         margin-left: -15vw;
+    }
+
+    .container {
+        margin-right: 35vw;
+    }
+
+    .info{
+        margin-left: -8vw;
     }
 
     .info ul li a{
         font-size: 2vw;
-        margin-left: -15vw;
+        margin-right: -15vw;
+       
     }
 
 
